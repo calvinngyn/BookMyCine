@@ -8,6 +8,8 @@
     tools:context=".MainActivity"
     tools:ignore="ExtraText">
 
+    <!-- Ajoutez un espace ici si nécessaire -->
+
     <Button
         android:id="@+id/button"
         android:layout_width="171dp"
@@ -18,21 +20,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.76" />
+        app:layout_constraintVertical_bias="0.645" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bookmycine"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="108dp"
         app:layout_constraintBottom_toTopOf="@id/button"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bookmycine"
         tools:ignore="MissingConstraints" />
 
-    <!-- Ajoutez un espace ici si nécessaire -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

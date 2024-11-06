@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">BookMyCine</string>
     <string name="films">Films</string>
+    <string name="venom_title"><b>Venom The\nLast Dance</b>\</string>
+    <string name="challenger_title"><b>Challenger</b></string>
+    <string name="houseof_title"><b>House of\nGucci</b>\</string>
+    <string name="juren2_title"><b>Juré N°2</b>\</string>
 </resources>
