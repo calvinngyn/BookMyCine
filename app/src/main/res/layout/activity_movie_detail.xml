@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="top|center_horizontal"
+    android:background="#EEEEEE"> <!-- Fond gris clair -->
+
+    <!-- Image avec la bordure noire appliquée -->
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:maxWidth="300dp"
+        android:maxHeight="400dp"
+        android:background="@drawable/image_border" /> <!-- Applique la bordure noire -->
+
+    <!-- Titre du film -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Titre du Film" />
+
+    <!-- Section des Avis -->
+    <TextView
+        android:id="@+id/reviewsTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avis :"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <!-- ScrollView pour permettre de défiler le texte des avis -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/reviewsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="8dp"
+            android:padding="8dp"
+            android:text="Les avis vont ici..." />
+    </ScrollView>
+
+</LinearLayout>

@@ -21,8 +21,12 @@
 
         <!-- Ajoutez cette déclaration pour EmptyActivity -->
         <activity
-            android:name=".EmptyActivity"
-            android:exported="true" /> <!-- Vous pouvez ajouter android:exported="true" si nécessaire -->
+            android:name=".MovieActivity"
+            android:exported="true" />
+
+        <activity
+        android:name=".MovieDetailActivity"
+        android:exported="true" />
 
     </application>
 

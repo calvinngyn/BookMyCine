@@ -1,0 +1,14 @@
+<!-- res/drawable/image_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Remplissage transparent à l'intérieur de la bordure -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Définition de la bordure noire avec une épaisseur de 3dp -->
+    <stroke android:width="3dp" android:color="#000000" /> <!-- Bordure noire -->
+
+    <!-- Coins légèrement arrondis pour la bordure -->
+    <corners android:radius="8dp" /> <!-- Coins arrondis de 8dp -->
+
+    <!-- Padding interne optionnel -->
+    <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp" />
+</shape>

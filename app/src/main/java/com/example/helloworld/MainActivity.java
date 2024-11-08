@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Créer une intention pour lancer la nouvelle activité
-                Intent intent = new Intent(MainActivity.this, EmptyActivity.class);
+                Intent intent = new Intent(MainActivity.this, MovieActivity.class);
                 startActivity(intent); // Démarrer la nouvelle activité
             }
         });
